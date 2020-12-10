@@ -1,0 +1,45 @@
+
+{% extends 'base.html'%}
+{% block styles%} {{ super() }}
+<link rel="stylesheet" href="{{url_for('static',filename='css/index.css')}}">
+{% endblock %}
+{% block content %}
+
+<body >
+  <div class="container-fluid">
+    <div class="d-flex justify-content-center row">
+      <div class="col-md-3"></div>
+      <div class="col-md-6">
+        <div class="card bg-dark">
+      <div class="card-groups">
+          <div class="card-body">
+            <h5 class="card-title" > <b>Love Pitch</b> </h5>
+            <p class="card-text">You know you're in love when you can't fall asleep because reality is finally better than your dreams. </p>
+            <button type="button" class="btn btn-outline-primary"><a href="../pitch/">Enter a New Pitch</a></button><br><br>
+            <button type="button" class="btn btn-outline-primary"><a href="/category/Love">Read More</a></button>
+        </div>
+        <br>
+        <br>
+          <div class="card-body">
+            <h5 class="card-title" style="font-weight: bolder; font-size: 20px;">Life Pitch</h5>
+            <p class="card-text">You only live once, but if you do it right, once is enough.”</p> <br>
+            <button type="button" class="btn btn-outline-primary"><a href="../pitch/">Enter a New Pitch</a></button><br><br>
+            <button type="button" class="btn btn-outline-primary"><a href="/category/Life">Read More</a></button>
+          </div>
+          <br>
+          <br>
+          <div class="card-body">
+            <h5 class="card-title" style="font-weight: bolder; font-size: 20px;">Haters Pitch</h5>
+            <p class="card-text">When they see other people improving their life and becoming successful, its a direct reflection to them of what they should be doing but are not.</p>
+              <button type="button" class="btn btn-outline-primary"><a href="../pitch/">Enter a New Pitch</a></button><br><br>
+            <button type="button" class="btn btn-outline-primary"><a href="/category/Haters">Read More</a></button>
+          </div>
+      </div>
+    </div>
+    </div>
+      <div class="col-md-3"></div>
+    </div>
+
+  </div>
+</body>
+  {% endblock%}
