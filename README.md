@@ -8,7 +8,7 @@ Emmanuel cheriyot
 
 
 ## BEHAVIURAL DRIVEN DEVELOPMENT
- * The user is able to view the headlines of different qoutes according to there categories and also go ahead and read more about the nqoutesin details.
+ * The user is able to view the headlines of different pitches according to there categories and also go ahead and read more about the nqoutesin details.
 ## SKILLS
 
 * python3.8
